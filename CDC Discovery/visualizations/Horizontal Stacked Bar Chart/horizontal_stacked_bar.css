@@ -1,0 +1,57 @@
+.x-axis path{
+  stroke: white;
+}
+.x-axis line{
+  stroke: white;
+}
+.x-axis text{
+  fill:#7e9197;
+  font-size: 7px;
+  font-weight: bold;
+}
+.y-axis path{
+  stroke: white;
+}
+.y-axis line{
+  stroke: white;
+}
+.y-axis text{
+  fill:black;
+  font-size: 6px;
+}
+.y_big_text text{
+  font-size: 4px;
+}
+.y_big_text path{
+  stroke: white;
+}
+.y_big_text line{
+  stroke: white;
+}
+.x_axis_big_text path{
+  stroke: white;
+}
+.x_axis_big_text line{
+  stroke: white;
+}
+.x_axis_big_text text{
+  font-size: 4px;
+  fill:#7e9197;
+}
+.text{
+  fill:black;
+  font-size: 10px;
+}
+.overlay {
+  fill: none;
+  pointer-events: all;
+}
+.textlabel{
+  font-size: 4px;
+  color: white;
+  fill: white;
+}
+.stacked_grid{
+  stroke: gray;
+  stroke-width: 0.4;
+}

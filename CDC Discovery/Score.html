@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CUSTOMER DATA CULTURE - SCORE</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style/style.css">
+    <link rel="stylesheet" href="./visualizations/Grouped Bar Chart/grouped_bar_chart.css">
+<script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.15.3/xlsx.full.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.15.3/xlsx.full.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+<script src="https://d3js.org/d3.v4.min.js"></script>
+</head>
+<body>
+
+  <!-----------------------------------------------------FIRST ROW STARTS HERE------------------------------------------------>
+  <div class="row m-0" style="margin: 2px;">
+    <!--FIRST COLUMN FIRST ROW STARTS HERE-->
+    <div class="col-sm-9">
+      <!--first row in first column-->
+      <div class="row">
+        <div class="col-sm-9">
+           <nav class="navbar">
+             <a href="#" class="navbar-brand" style="color:#973d46; font-size: 25px;">
+              <!-- <img src="./assets/CC_LOGO..svg" width="90" height="90" alt=""> -->
+              <b>CUSTOMER DATA CULTURE - SCORE</b>
+              </a>
+            </nav>
+        </div>
+        <div class="col-sm-3" style="margin-top:2%; padding-left: 7%;">
+          <a class="w3-button w3-large w3-black" href="DiscoveryInterrelationships.html">‹‹<br/><br/><span class="Back">Back</span></a><a class="w3-button w3-large w3-black disabled" href="javascript:void(0)" >››<br/><br/><span class="Back">Forward</span></a>        
+        </div>
+      </div>
+      <!--first row in first column-->
+
+      <!--second row in first column-->
+      <div class="row m-0">
+        <div class="col-sm-3">
+          <p class="listen" style="font-weight: 500; font-size: 14px; font-weight: bold;" >Your result can be <span style="color: #973d46; ">Scored</span> against previous
+          outcomes and benchmarks to validate your views areas of focus.</p>
+          <!-- <span style=" font-size: 11px;  text-align:end;">is paramount<br/>to building end to end capability across the information ecosystem</span></p> -->
+        </div>
+        <div class="col-sm-9">
+          <p style="font-size: 14px; ">Comparing the outcome of each Insight Driver to alternative results<br/>supports an intention to drive change in the key areas that are below<br/>
+          given benchmark or previous result.</p>
+        </div>
+      </div>
+       <!--second row in first column-->
+    </div>
+    <!--FIRST COLUMN FIRST ROW STARTS HERE-->
+
+    <!--SECOND COLUMN FIRST ROW STARTS HERE-->
+    <div class="col-sm-3" style="text-align: end;">
+      <!--first row in second column-->
+      <div class="row">
+        <div class="col-sm-12"  id="nav_hub_page_eleven"></div>
+      </div>
+      <!--first row in second column-->
+
+      <!--second row in second column-->
+      <!-- <div class="row">
+        <div class="col-sm-12 headings"style="margin-left: -14%;" >
+          BENCHMARK SELECTION 
+        </div>
+      </div> -->
+      <!--second row in second column-->
+
+      <!--third row in second column-->
+      <!-- <div class="row">
+        <div class="col-sm-12" style="margin-left: -24%;">
+          <select  style="margin-left: 80px;" id="Benchmark_Selection" onchange="Listen()" disabled>
+            <option>BENCHMARK</option>
+          </select> 
+        </div>
+      </div> -->
+      <!--third row in second column-->
+
+    </div>
+    <!--SECOND COLUMN FIRST ROW ENDS HERE-->
+  </div>
+  <!-----------------------------------------------------FIRST ROW ENDS HERE------------------------------------------------>
+ 
+  <!-----------------------------------------------------SECOND ROW STARTS HERE------------------------------------------------>
+  <div class="row m-0">
+    <!--FIRST COLUMN SECOND ROW STARTS HERE-->
+    <div class="col-sm-9">
+      <div id='grouped-bar'></div>
+    </div>
+    <!--FIRST COLUMN SECOND ROW ENDS HERE-->
+
+    <!--SECOND COLUMN SECOND ROW STARTS HERE-->
+    <!-- <div class="col-sm-1" style="background-color: white; ">
+      <a href="https://customercrunch.com/">
+        <img class="footer_logo" src="./assets/CC_LOGO..svg" width="100" height="100" alt="" style="margin-left:220%; margin-top:400%" >
+      </a> -->
+        <!-- <img class="footer_logo" src="./assets/CC_LOGO..svg" width="100" height="100" alt="" style=""> -->
+    <!-- </div> -->
+    <!--SECOND COLUMN SECOND ROW ENDS HERE-->
+  </div>
+  <!-----------------------------------------------------SECOND ROW STARTS HERE------------------------------------------------>
+
+</body>
+</html>
+<script src="./js/navigation_hub.js"></script>
+<script src="./js/insert_into _table.js"></script>
+<script src="./js/benchmark_options.js"></script>
+<script src="./visualizations/Grouped Bar Chart/grouped_bar_chart.js"></script>
+<script src="./visualizations/Responsive SVG/responsive_svg.js"></script>
+<script src="./js/Score.js"></script>
+<script src="./js/CSVdata.js"></script>

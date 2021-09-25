@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CUSTOMER DATA CULTURE (DISCOVERY)</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style/style.css">
+<script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.15.3/xlsx.full.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.15.3/xlsx.full.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+<script src="https://d3js.org/d3.v4.min.js"></script>
+</head>
+<body>
+
+   <!--HEADER-->
+  <div class="row m-0">
+    <div class="col-lg-9 col-md-12 col-sm-12">
+      <div class="row m-0 ">
+        <div class="col-sm-9">
+          <nav class="navbar navbar-default navbar-custom">
+            <img src="./assets/color venn.png"  style="text-align: center;width: 30%;height:auto;" alt="">
+            <span class="navbar-brand mb-0 h3 logo"><b>CDC: CUSTOMER DATA CULTURE<br/></b><p style="font-size: 25px;">(DISCOVERY)</p></span>
+          </nav>
+        </div>
+        <div class="col-sm-3">
+          <a style="margin-top: 2rem;" disabled class="w3-button w3-large w3-black disabled" href="javascript:void(0)" >‹‹<br/><br/><span class="Back">Back</span></a><a class="w3-button w3-large w3-black" href="CustomerDataCulture.html">››<br/><br/><span class="Back">Forward</span></a> 
+        </div>
+      </div>
+    </div>
+
+    <div class="col-sm-3 " style="text-align: end;">
+      <div class="row m-0" style="text-align: end; ">
+        <div class="col-sm-12"  id="nav_hub_page_main"></div>
+      </div>
+    </div>
+    <!--HEADER-->
+    <!-- <nav class="navbar navbar-default navbar-custom">
+      <img src="./assets/color venn.png" width="220" height="220" alt="">
+      <span class="navbar-brand mb-0 h3 logo"><b>CDC: CUSTOMER DATA CULTURE<br/></b><p style="font-size: 25px;">(DISCOVERY)</p></span> 
+      <span class="navbar-brand mb-0 mr-lg-auto h3 col-sm-3" style="font-size: 15px;">
+        <a class="w3-button w3-large w3-black" href="HomePage.html">‹‹<br/><br/><span class="Back">Back</span></a><a class="w3-button w3-large w3-black" href="CustomerDataCulture.html">››<br/><br/><span class="Back">Forward</span></a> 
+      </span>
+      <span class="navbar-brand mb-2 mr-lg-auto h3 col-sm-2" id="nav_hub_page_main" style="font-size: 15px;"></span>
+    </nav> -->
+    <!--HEADER-->
+  </div>
+  <!--HEADER-->
+
+  <!---------------------------------------FIRST row m-0 STARTS HERE------------------------------------------------------------------------------->
+  <div class="row m-0">
+    <!--FIRST COLUMN FIRST row m-0 STARTS HERE-->
+    <div class="col-sm-12" style="background-color: white;">
+      <!--first row m-0 in first column-->
+      <div class="row m-0" style="background-color: white; ">
+        <div class="col-sm-12 description" style="padding-left: 5%;font-size: 14px;">
+          <p><b>The CUSTOMER DATA CULTURE (Discovery) solution encourages conversation across teams on the importance of being customer focused.</b></p>
+          <p>Through asking a set of essential questions on customer enablement we are able to validate on an organisation's ability to listen to
+          customer needs, accquire knowledge of customer intention, assess interactions, and qualify the active customer culture.</p>
+          <p>The synthesis of four key Insight Drivers consolidates individual views into an actionable scorecard that will identify process gaps,
+          strengthen communication programs, and enhance customer engagement.</p>
+        </div>
+      </div>
+      <!--first row m-0 in first column-->
+
+      <!--second row m-0 in first column-->
+      <div class="row m-0">
+        <div class="col-sm-12 headings" style="padding-left: 5%; margin-top: 0px;">CDC INSIGHT DRIVERS</div>
+      </div>
+      <!--second row m-0 in first column-->
+
+      <!--third row m-0 in first column-->
+      <div class="row m-0" style="padding-left: 5%; margin-top: 0px; background-color: white;">
+        <div class="col-sm-6">
+          <div class="row m-0">
+            <div class="col-sm-2" style="text-align: center; background-color: white;">
+              <figure>
+                <a href="Listen.html">
+                  <img src="./assets/Listen to customer.png" class="insight_drivers" alt="">
+                </a>
+                <figcaption class="figure_text"  style="text-align: center;">LISTEN TO CUSTOMER</figcaption>
+              </figure>
+            </div>
+            <div class="col-sm-2" style="text-align: center;">
+              <figure>
+                <a href="Interaction.html">
+                  <img src="./assets/interactive with customer.svg"  class="insight_drivers" alt="">
+                </a>
+                <figcaption class="figure_text" style="text-align: center;">INTERACTION WITH CUSTOMER</figcaption>
+              </figure>
+            </div>
+            <div class="col-sm-2" style="text-align: center;">
+              <figure>
+                <a href="Knowledge.html">
+                  <img src="./assets/knowledege of customers.svg" class="insight_drivers" alt="">
+                </a>
+                <figcaption class="figure_text"  style="text-align: center;">KNOWLEDGE OF CUSTOMER</figcaption>
+              </figure>
+            </div>
+            <div class="col-sm-2" style="text-align: center;">
+              <figure>
+                <a href="Culture.html">
+                  <img src="./assets/customer culture.svg" class="insight_drivers" alt="">
+                </a>
+                <figcaption class="figure_text"  style="text-align: center;">CULTURE OF CUSTOMER</figcaption>
+              </figure>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-2">
+          <div class="row m-0" style="background: #f1f1f1;padding:10px;">
+            <div class="col-sm-12">
+              <div class="percent">67%</div>
+              <div class="text">Established</div>
+              <div class="progress-bar">
+                <div class="progress"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-3">
+          <div class="row m-0">
+            <div class="col-sm-12">
+              <p style="margin-left: 20px;" id="Company"></p>
+              <p style="margin-left: 20px;" id="Project_Name"></p>
+              <p style="margin-left: 20px;" id="Date"></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--third row m-0 in first column-->
+    </div>
+   
+  </div>
+  <!--------------------------------------FIRST row m-0 ENDS HERE----------------------------------------------------------------------------------->
+
+  <!--------------------------------------SECOND row m-0 STARTS HERE------------------------------------------------------------------------------->
+  <div class="row m-0" style="margin-top:0%; background-color: white; padding-bottom: 0px;">
+    <!--FIRST COLUMN SECOND row m-0 STARTS HERE-->
+    <div class="col-sm-12 footer_text" style="padding-left: 5%;" >
+     <p style="color: black; font-style: normal;"><b>DISCLAIMER</b></p>
+        <p>This report is based on responses provided to a set of devised questions and corresponding statements, which have been selected by individuals and do not reflect any formal investigation on the part of Customer Crunch. All opinions and recommendations are only intended to provide a general guide and should not be employed as the basis for any investment decision or formal strategy, without additional consultation with Customer Crunch representatives.</p>
+        <p>The information contained herein relates to our materials, experience and understanding derived from the responses, and should not be used in conjunction with any third-party materials. Customer Crunch PTY.LTD will nit accept any liability with respect to the use of this content in conjuction with other materials. The CDC Discovery report may not be mechanically duplicated, photocopied or otherwise reproduced, in full or in part, for purposes other than internal use.</p>
+    </div>
+    <!--FIRST COLUMN SECOND row m-0 ENDS HERE-->
+
+    
+  </div>
+  <!---------------------------------------SECOND row m-0 ENDS HERE------------------------------------------------------------------------------->
+</body>
+</html>
+<script src="./js/navigation_hub.js"></script>
+<script src="./js/script.js"></script>
+<script src="./js/data.js"></script>
+<script src="./js/CSVdata.js"></script>

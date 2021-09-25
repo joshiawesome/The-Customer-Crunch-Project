@@ -1,0 +1,18 @@
+.xRange line{
+  stroke: white;
+}
+.xRange path{
+  stroke: white;
+}
+.xRange text{
+  display: none;
+}
+.yRange line{
+  stroke: white;
+}
+.yRange path{
+  stroke: white;
+}
+.yRange text{
+  font-weight: bold;
+}

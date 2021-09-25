@@ -1,0 +1,21 @@
+.textlabel{
+  font-weight: bold;
+}
+.g-x-axis line{
+  stroke: white;
+}
+.g-x-axis path{
+  stroke: white;
+}
+.g-x-axis text{
+  /* stroke: white; */
+  font-weight: bold;
+}
+.grid{
+  stroke: gray;
+  stroke-width: 0.3;
+  opacity: 1.0;
+}
+.group_categories{
+  font-weight: bold;
+}

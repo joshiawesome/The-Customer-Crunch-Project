@@ -1,0 +1,35 @@
+.x-axis-two text{
+  fill:#7e9197;
+  font-size: 7px;
+  font-weight: bold;
+}
+.x-axis-two path{
+  stroke: white;
+}
+.x-axis-two line{
+  stroke: white;
+}
+.y-axis-two text{
+  fill: black;
+  font-size: 10.5px;
+}
+.y-axis-two path{
+    stroke: white;
+}
+.y-axis-two line{
+  stroke: white;
+}
+.textlabel{
+  font-size: 10px;
+  font-weight: bold;
+  color: black;
+}
+.grid{
+  stroke: grey;
+  stroke-width: 0.2;
+  opacity: 0.6;
+}
+.grid_to{
+  stroke: gray;
+  stroke-width: 0.4;
+}

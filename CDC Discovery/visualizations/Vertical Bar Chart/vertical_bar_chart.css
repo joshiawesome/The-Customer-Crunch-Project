@@ -1,0 +1,19 @@
+.xLine line{
+  stroke: white;
+}
+.xLine path{
+  stroke: white;
+}
+.xLine text{
+  fill:black;
+}
+.yLine line{
+  stroke: white;
+}
+.yLine path{
+  stroke: white;
+}
+.yLine text{
+  fill:black;
+  
+}
